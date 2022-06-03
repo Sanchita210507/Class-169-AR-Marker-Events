@@ -1,0 +1,31 @@
+
+db structure :
+
+1. Add collection: dishes
+2. Add document: D01
+3. Add fields:
+  i. dish_name: PIZZA MARGHERITA
+  ii. id: string
+  iii. ingredients: array
+      1. string Tomato sauce
+      2. Mozzarella cheese
+      3. Parmesan cheese
+      4. Fresh Basil
+      5. Olive oil
+      6. black pepper
+  iv. marker_pattern_url: string
+  v. marker_image_url: string
+  vi. model_geometry: map
+    1. position: map
+        a. x: number
+        b. y: number
+        c. z: number
+    2. rotation: map
+        a. x: number
+        b. y: number
+        c. z: number
+    3. scale: map
+        a. x: number
+        b. y: number
+        c. z: number
+  vii. model_url: string
